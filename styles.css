@@ -84,3 +84,8 @@ li::marker {
 .recipe-list a {
     color: var(--clr-bg);
 }
+
+.home-link {
+    position: relative;
+    float: right;
+}
