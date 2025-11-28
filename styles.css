@@ -1,0 +1,86 @@
+:root {
+    --clr-main: #fcc440;
+    --clr-text: #fff4eb;
+    --clr-bg: #322D29;
+
+    --fs-h1: 3.3rem;
+    --fs-h2: 2.5rem;
+    --fs-text: 1.3rem;
+}
+
+/*Resets*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: inherit;
+}
+
+/* Styles */
+html {
+    background-color: var(--clr-bg);
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: var(--fs-text);
+    color: var(--clr-text);
+    padding: 2vw;
+}
+
+h1,
+h2,
+hr {
+    color: var(--clr-main);
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-main);
+    font-weight: 500;
+}
+
+li {
+    margin: 20px 0;
+}
+
+li::marker {
+    color: var(--clr-main);
+    font-weight: bold;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    background-color: var(--clr-main);
+    font-size: 1.4rem;
+    margin: 7px 0;
+    padding: 5px;
+}
+
+.recipe-list a {
+    color: var(--clr-bg);
+}
